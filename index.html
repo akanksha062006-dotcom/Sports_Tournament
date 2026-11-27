@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sports Tournament Management System</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            🏆 SPORTZONE
+        </div>
+
+        <nav>
+            <a href="#dashboard" class="active">🏠 Dashboard</a>
+            <a href="#sports">🏅 Sports</a>
+            <a href="#teams">👥 Teams</a>
+            <a href="#matches">📅 Matches</a>
+            <a href="#scores">📊 Scoreboard</a>
+            <a href="#standings">🏆 Points Table</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            Sports Tournament System
+        </div>
+
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Header -->
+        <header class="header">
+
+            <div>
+                <h1>Sports Dashboard</h1>
+                <p>Welcome to your sports tournament management system.</p>
+            </div>
+
+            <div class="profile">
+                👤 Admin
+            </div>
+
+        </header>
+
+        <!-- Dashboard -->
+        <section id="dashboard">
+
+            <h2>Overview</h2>
+
+            <div class="stats-container">
+
+                <div class="stat-card">
+                    <h3>Total Sports</h3>
+                    <p>05</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Total Teams</h3>
+                    <p>20</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Total Matches</h3>
+                    <p>48</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Completed Matches</h3>
+                    <p>32</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Sports Categories -->
+        <section id="sports">
+
+            <h2>Sports Categories</h2>
+
+            <div class="sports-container">
+
+                <div class="sport-card">
+                    <span>🏏</span>
+                    <h3>Cricket</h3>
+                    <p>Teams and tournaments</p>
+                </div>
+
+                <div class="sport-card">
+                    <span>⚽</span>
+                    <h3>Football</h3>
+                    <p>Teams and tournaments</p>
+                </div>
+
+                <div class="sport-card">
+                    <span>🏀</span>
+                    <h3>Basketball</h3>
+                    <p>Teams and tournaments</p>
+                </div>
+
+                <div class="sport-card">
+                    <span>🏸</span>
+                    <h3>Badminton</h3>
+                    <p>Teams and tournaments</p>
+                </div>
+
+                <div class="sport-card">
+                    <span>🏐</span>
+                    <h3>Volleyball</h3>
+                    <p>Teams and tournaments</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Teams -->
+        <section id="teams">
+
+            <h2>Popular Teams</h2>
+
+            <div class="team-container">
+
+                <div class="team-card">
+                    <h3>Royal Strikers</h3>
+                    <p>Cricket</p>
+                </div>
+
+                <div class="team-card">
+                    <h3>Thunder FC</h3>
+                    <p>Football</p>
+                </div>
+
+                <div class="team-card">
+                    <h3>Sky Warriors</h3>
+                    <p>Basketball</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Upcoming Matches -->
+        <section id="matches">
+
+            <h2>Upcoming Matches</h2>
+
+            <div class="match-card">
+                <h3>Royal Strikers vs City Kings</h3>
+                <p>🏏 Cricket | 10:00 AM</p>
+                <span>Upcoming</span>
+            </div>
+
+            <div class="match-card">
+                <h3>Thunder FC vs United Stars</h3>
+                <p>⚽ Football | 4:00 PM</p>
+                <span>Upcoming</span>
+            </div>
+
+        </section>
+
+        <!-- Scoreboard -->
+        <section id="scores">
+
+            <h2>Recent Results</h2>
+
+            <div class="score-card">
+                <h3>Royal Strikers vs City Kings</h3>
+                <p>Royal Strikers: 165/5</p>
+                <p>City Kings: 150/8</p>
+                <strong>Royal Strikers won</strong>
+            </div>
+
+        </section>
+
+        <!-- Points Table -->
+        <section id="standings">
+
+            <h2>Points Table</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Team</th>
+                        <th>Played</th>
+                        <th>Won</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Royal Strikers</td>
+                        <td>5</td>
+                        <td>4</td>
+                        <td>8</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>City Kings</td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td>6</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Thunder FC</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <footer>
+            <p>© 2026 SportZone | Sports Tournament Management System</p>
+        </footer>
+
+    </main>
+
+    <script src="js/sports-data.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
